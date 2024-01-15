@@ -1,0 +1,12 @@
+:root {
+  $$dsn := <postgres>postgresql://docker:docker@localhost:5432/test?sslmode=disable
+}
+
+
+h1 {
+  color: sql select color from colors where id = 'bada7503-e3e1-4ff7-9133-2ac3a8cd83eb'
+}
+
+.container {
+  background: sql select color from colors where id = '13f949df-ca05-40f3-b295-1aa39be30860'
+}
